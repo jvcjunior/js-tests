@@ -1,19 +1,27 @@
-Você precisa criar uma Single Page Application que vai consumir a API [Open Movie Database](https://omdbapi.com/)
+# Project
+Create a SPA(Single page application) to consume [Open Movie Database API](https://omdbapi.com/)
 
-## Coisas que sua web app deve permitir
-- Busca por filmes por nome
-- Salvar um  filme buscado em uma lista local de filmes favoritos
-- Ordenar e filtrar os filmes por `Year`, `Rating` e `Genre`
+## Features
+- Search movies by name
+- Save a searched movie in a local list of favorite movies
+- Order and filter movies by `Year`, `Rating` and `Genre`
 
-## Coisas que podem ser usadas
+## Stack can use
 - Frameworks e libs JS: Angular, React, etc
-- Pré processadores de CSS: Sass, Less ou Stylus
+- CSS Preprocessors: Sass, Less or Stylus
 - Task runner: gulp, grunt, webpack, etc
 
-## Coisas a serem avaliadas
-- Clareza do código
-- HTML limpo e claro
-- Controle correto das rotas da aplicação
-- Uso correto do git
-- Conhecimento de JS
-- Conhecimento de FP (Functional Programming)
+## Evaluation
+- Clarity of the code
+- HTML clean and clear
+- Correct control of application routes
+- Correct use of git
+- JS Knowledge
+- FP (Functional Programming) Knowledge
+
+## Run
+
+```javascript
+npm install
+npm run dev
+```
