@@ -14,4 +14,7 @@ Our technology focuses on breach detection, signaling machines in your network t
 ## 2016
 
 ### Greenmile
+[GreenMile](http://greenmile.com) is a leading cloud-based platform and mobile solutions company that develops location-based software to manage mobile resources.  With offices in the US and Brazil and customers worldwide, GreenMile’s solutions are used by companies in industries such as beverage, foodservices, retail and healthcare.  GreenMile’s technology allows distributors to track in real time the performance of their planned routes and mobile resources – including delivery vehicles, merchandisers, sales reps and field technicians – to help improve efficiency while reducing overall logistics costs.
+
 ### Luxfacta
+Established in 2002, [Luxfacta](https://www.luxfacta.com/en/) is a company that has been empowering communities, clients and people. Based in Rio Claro, it is located near the largest IT center in Brazil and only two hours trip from São Paulo. Recognized in the IT market, we also have a branch in Santiago, Chile.
