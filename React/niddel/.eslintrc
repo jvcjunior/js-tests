@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "react/require-extension": "off",
+    "linebreak-style": "off"
+  },
+  "env": {
+    "browser": true
+  },
+  "ecmaFeatures": {
+    "modules":true,
+    "arrowFunctions":true,
+    "classes":true
+  }
+}

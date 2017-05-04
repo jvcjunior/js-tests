@@ -1,0 +1,21 @@
+@import url( 'https://fonts.googleapis.com/css?family=Open+Sans');
+$font-stack: 'Open Sans', sans-serif;
+
+html {
+    height: 100%;
+    font-family: $font-stack;
+}
+
+body {
+  background-color: #3e94ec;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+#main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
