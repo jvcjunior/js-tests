@@ -5,28 +5,28 @@ import { fetchWeather } from '../actions/index'
 
 class SearchBar extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
 
-        this.state = { term : ''};
+        this.state = { term: '' };
 
         this.onInputChange = this.onInputChange.bind(this);
         this.onFormSubmit  = this.onFormSubmit.bind(this);
     }
 
-    onInputChange(event){
-        console.log(event.target.value);
-        this.setState({term: event.target.value});
+    onInputChange(event) {
+        //console.log(event.target.value);
+        this.setState({ term: event.target.value });
     }
 
-    onFormSubmit(event){
+    onFormSubmit(event) {
         event.preventDefault();
         //we need to go and fetch weather data
         this.props.fetchWeather(this.state.term);
-        this.setState({term:''});
+        this.setState({ term: '' });
     }
 
-    render(){
+    render() {
         return (
             <form onSubmit={this.onFormSubmit} className="input-group">
                 <input
@@ -43,7 +43,7 @@ class SearchBar extends Component {
     }
 }
 
-function mapDispatchToProps(dispatch){
+function mapDispatchToProps(dispatch) {
     return bindActionCreators({ fetchWeather }, dispatch);
 }
 
