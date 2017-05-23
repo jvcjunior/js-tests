@@ -18,6 +18,12 @@
     "babel-loader": "^7.0.0",
     "babel-preset-react": "^6.24.1",
     "express": "^4.15.3",
+    "express-graphql": "^0.6.5",
+    "flux": "^3.1.2",
+    "graphql": "^0.9.6",
+    "jquery": "^3.2.1",
+    "kerberos": "0.0.23",
+    "mongodb": "^2.2.27",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
