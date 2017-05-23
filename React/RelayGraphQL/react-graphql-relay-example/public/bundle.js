@@ -9622,8 +9622,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var API = {
   fetchLinks: function fetchLinks() {
     //console.log('fetch');
-    (0, _jquery.get)("/data/links").done(function (resp) {
-      _ServerActions2.default.receiveLinks(resp);
+    (0, _jquery.post)("/graphql", {
+      query: '{\n        links {\n          _id,\n          title,\n          url\n        }\n      }\n      '
+    }).done(function (resp) {
+      _ServerActions2.default.receiveLinks(resp.data.links);
     });
   }
 };
