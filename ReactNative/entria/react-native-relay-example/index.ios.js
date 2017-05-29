@@ -1,4 +1,4 @@
 import { AppRegistry }from 'react-native';
-import App from './src/app';
+import App2 from './src/App2';
 
-AppRegistry.registerComponent('ReactNativeRelay', () => App);
+AppRegistry.registerComponent('ReactNativeRelay', () => App2);
