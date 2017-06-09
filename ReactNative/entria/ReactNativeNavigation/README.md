@@ -6,4 +6,4 @@ The main purpose of this app is to show an example of React Native with React Na
 
 ### Author
 
-Valter Júnior ([@jvcjunior](http://twitter.com/jvcjunior = 250px))
+Valter Júnior ([@jvcjunior](http://twitter.com/jvcjunior))
